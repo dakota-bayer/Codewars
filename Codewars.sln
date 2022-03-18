@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codewars", "Codewars\Codewars.csproj", "{FC2A42FF-B236-4175-8ADD-E978B4707A54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Digits - Digital Root", "Sum of Digits - Digital Root\Sum of Digits - Digital Root.csproj", "{DBEF9E0C-661C-446F-BFB0-011B76068D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Digits - Digital RootTests", "Sum of Digits - Digital RootTests\Sum of Digits - Digital RootTests.csproj", "{283D59E5-EBE2-43F0-961B-F32D80887CF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FC2A42FF-B236-4175-8ADD-E978B4707A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC2A42FF-B236-4175-8ADD-E978B4707A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC2A42FF-B236-4175-8ADD-E978B4707A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEF9E0C-661C-446F-BFB0-011B76068D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEF9E0C-661C-446F-BFB0-011B76068D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEF9E0C-661C-446F-BFB0-011B76068D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEF9E0C-661C-446F-BFB0-011B76068D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283D59E5-EBE2-43F0-961B-F32D80887CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283D59E5-EBE2-43F0-961B-F32D80887CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283D59E5-EBE2-43F0-961B-F32D80887CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283D59E5-EBE2-43F0-961B-F32D80887CF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
