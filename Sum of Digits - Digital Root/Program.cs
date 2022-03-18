@@ -11,7 +11,7 @@ namespace Sum_of_Digits___Digital_Root
         static void Main(string[] args)
         {
             Number n = new Number();
-            Console.WriteLine(n.DigitalRoot(50));
+            Console.WriteLine(n.DigitalRoot(569870));
 
             Console.ReadLine();
         }

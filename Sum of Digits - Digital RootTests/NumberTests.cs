@@ -28,7 +28,7 @@ namespace Sum_of_Digits___Digital_Root.Tests
         [TestMethod()]
         public void LargeNumTest()
         {
-            Assert.AreEqual(21, testNum.DigitalRoot(189021));
+            Assert.AreEqual(3, testNum.DigitalRoot(189021));
         }
     }
 }

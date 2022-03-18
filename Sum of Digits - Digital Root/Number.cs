@@ -24,24 +24,51 @@ namespace Sum_of_Digits___Digital_Root
         //    //This doesn't work, just produces the unicode value
         //}
 
+        //public int DigitalRoot(long n)
+        //{
+        //    string nString = n.ToString();
+        //    int[] numArray = new int[nString.Length];
+
+        //    //Creating array of 0-9 in each slot
+        //    for (int i = 0; i < nString.Length; i++)
+        //    {
+        //        numArray[i] = int.Parse(nString.Substring(i, 1));
+        //    }
+
+        //    int sum = 0;
+
+        //    //Going through each 0-9 element in array and adding it to running total
+        //    foreach (int i in numArray)
+        //    {
+        //        sum += i;
+        //    }
+
+        //    return sum;
+        //}
+
         public int DigitalRoot(long n)
         {
-            string nString = n.ToString();
-            int[] numArray = new int[nString.Length];
+            int sum;
 
-            //Creating array of 0-9 in each slot
-            for (int i = 0; i < nString.Length; i++)
+            do
             {
-                numArray[i] = int.Parse(nString.Substring(i, 1));
-            }
+                string nString = n.ToString();
+                int[] numArray = new int[nString.Length];
 
-            int sum = 0;
-
-            //Going through each 0-9 element in array and adding it to running total
-            foreach (int i in numArray)
-            {
-                sum += i;
+                //Creating array of 0-9 in each slot
+                for (int i = 0; i < nString.Length; i++)
+                {
+                    numArray[i] = int.Parse(nString.Substring(i, 1));
+                }
+                sum = 0;
+                //Going through each 0-9 element in array and adding it to running total
+                foreach (int i in numArray)
+                {
+                    sum += i;
+                }
+                n = sum;
             }
+            while (sum.ToString().Length > 1);
 
             return sum;
         }
